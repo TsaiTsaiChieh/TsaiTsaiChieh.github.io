@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>ESLint-Setting</title>
+    <link href="/2023/08/13/ESLint-Setting/"/>
+    <url>/2023/08/13/ESLint-Setting/</url>
+    
+    <content type="html"><![CDATA[<p>記錄一些自己常用的 ESLint 設定<br>version:<br><a href="mailto:&#x65;&#x73;&#x6c;&#105;&#110;&#x74;&#x40;&#x38;&#46;&#52;&#55;&#x2e;&#x30;">&#x65;&#x73;&#x6c;&#105;&#110;&#x74;&#x40;&#x38;&#46;&#52;&#55;&#x2e;&#x30;</a><br><a href="mailto:&#x65;&#x73;&#x6c;&#x69;&#110;&#x74;&#45;&#99;&#x6f;&#110;&#x66;&#x69;&#x67;&#45;&#x6e;&#x65;&#x78;&#116;&#x40;&#x31;&#x33;&#x2e;&#x34;&#x2e;&#x31;&#x33;">&#x65;&#x73;&#x6c;&#x69;&#110;&#x74;&#45;&#99;&#x6f;&#110;&#x66;&#x69;&#x67;&#45;&#x6e;&#x65;&#x78;&#116;&#x40;&#x31;&#x33;&#x2e;&#x34;&#x2e;&#x31;&#x33;</a></p><h2 id="Extends"><a href="#Extends" class="headerlink" title="Extends"></a>Extends</h2><h3 id="next-core-web-vitals"><a href="#next-core-web-vitals" class="headerlink" title="next&#x2F;core-web-vitals"></a>next&#x2F;core-web-vitals</h3><p>為 init next 的 default 配置</p><p>More info: <a href="https://nextjs.org/docs/app/building-your-application/configuring/eslint#core-web-vitals">Core Web Vitals</a></p><h2 id="Rules"><a href="#Rules" class="headerlink" title="Rules"></a>Rules</h2><h3 id="semi-https-eslint-org-docs-latest-rules-semi-rule-details"><a href="#semi-https-eslint-org-docs-latest-rules-semi-rule-details" class="headerlink" title="(semi)[https://eslint.org/docs/latest/rules/semi#rule-details]"></a>(semi)[<a href="https://eslint.org/docs/latest/rules/semi#rule-details]">https://eslint.org/docs/latest/rules/semi#rule-details]</a></h3><p>Require or disallow semicolons instead of ASI (automatic semicolon insertion)</p><p>取消每段 statement 末尾的分號</p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs JSON"><span class="hljs-punctuation">&#123;</span><br>  <span class="hljs-attr">&quot;semi&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">[</span><span class="hljs-string">&quot;error&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-string">&quot;never&quot;</span><span class="hljs-punctuation">]</span><br><span class="hljs-punctuation">&#125;</span><br></code></pre></td></tr></table></figure><h3 id="quotes-https-eslint-org-docs-latest-rules-quotes-rule-details"><a href="#quotes-https-eslint-org-docs-latest-rules-quotes-rule-details" class="headerlink" title="(quotes)[https://eslint.org/docs/latest/rules/quotes#rule-details]"></a>(quotes)[<a href="https://eslint.org/docs/latest/rules/quotes#rule-details]">https://eslint.org/docs/latest/rules/quotes#rule-details]</a></h3><p>Enforce the consistent use of either backticks, double, or single quotes</p><p>使用單引號</p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs JSON"><span class="hljs-punctuation">&#123;</span><br>  <span class="hljs-attr">&quot;quotes&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">[</span><span class="hljs-string">&quot;error&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-string">&quot;single&quot;</span><span class="hljs-punctuation">]</span><br><span class="hljs-punctuation">&#125;</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>code style</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2023/08/13/hello-world/"/>
     <url>/2023/08/13/hello-world/</url>
